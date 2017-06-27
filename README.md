@@ -41,7 +41,7 @@ GET https://www.eduassist.me/api/v1/school_classes will provide an `index` of cl
 ]
 ```
 #### Create
-POST https://www.eduassist.me/api/v1/school_classes will allow you to `create` a new class from the API. Please use the params school_class[name]: `Your Name Here` and school_class[description]: `your description here`.
+POST https://www.eduassist.me/api/v1/school_classes will allow you to `create` a new class from the API. Please use the params school_class[name]: `Your Name Here` and school_class[description]: `Your Description Here`.
 #### Show
 GET https://www.eduassist.me/api/v1/school_classes/:id will allow you to `show` a specific class ID and retrieve a list of the students.
 ```json
