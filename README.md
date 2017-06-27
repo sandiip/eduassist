@@ -63,27 +63,6 @@ GET https://www.eduassist.me/api/v1/school_classes/:id will allow you to `show` 
             "last_name": "Agbakoba",
             "bio": "Olisa has trouble focusing during class. She tends to bother other students and can be a distraction. She is very good at math.",
             "birthday": "2008-05-12"
-        },
-        {
-            "id": 4,
-            "first_name": "Pauline",
-            "last_name": "Giwa",
-            "bio": "Dele is an animal lover. Make sure to remember that his dog's name is 'Billy'!",
-            "birthday": "2008-05-12"
-        },
-        {
-            "id": 5,
-            "first_name": "Pasquale",
-            "last_name": "Adebisi",
-            "bio": "Pascal wants to be a surgeon. He has already tried to practice his surgery on one of his classmates - leading to a reprimand from the headmaster.",
-            "birthday": "2008-05-12"
-        },
-        {
-            "id": 6,
-            "first_name": "Patrick",
-            "last_name": "Shagaya",
-            "bio": "Patrick's parents are extremely poor, he comes to class hungry most days. Bringing an extra snack for him will help keep him focused.",
-            "birthday": "2008-05-12"
         }
     ]
 }
