@@ -13,8 +13,25 @@ Wanna check it out with some pre-populated data? Feel free to login with these c
 
 * Login: `spencer@teacher.com`
 * Password: `password`
+* API Token: `8Q21xcNYWjCyxvyA-cDm`
 
-Just like a national park - please leave it like you found it! We'll be setting up guest user account system shortly.
+Just like a national park - please leave it like you found it!
+
+### API:
+We're currently adding an API.  
+In order to authenticate, please send the following headers:
+
+* X-User-Email: `Your Email Here`
+* X-User-Token: `Your API Token Here`
+
+The following endpoints are available:
+#### Index
+* GET https://www.eduassist.me/api/v1/school_classes will provide an `index` of classes associated with your user credentials.
+#### Create
+* POST https://www.eduassist.me/api/v1/school_classes will allow you to `create` a new class from the API. Please use the params school_class[name]: `Your Name Here` and school_class[description]: `your description here`.
+#### Show
+* GET https://www.eduassist.me/api/v1/school_classes/:id will allow you to `show` a specific class ID and retrieve a list of the students.
+
 
 ### Contribute:
 We'd love to collaborate with software developers of any skill level to help bring the best experience to our users.  Please don't hesitate to jump onboard!
