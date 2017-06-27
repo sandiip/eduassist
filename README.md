@@ -44,6 +44,50 @@ GET https://www.eduassist.me/api/v1/school_classes will provide an `index` of cl
 POST https://www.eduassist.me/api/v1/school_classes will allow you to `create` a new class from the API. Please use the params school_class[name]: `Your Name Here` and school_class[description]: `your description here`.
 #### Show
 GET https://www.eduassist.me/api/v1/school_classes/:id will allow you to `show` a specific class ID and retrieve a list of the students.
+```json
+{
+    "id": 1,
+    "name": "Grade 3",
+    "description": "Half the students were transferred this year as their old school was closed. Remember they're new in town!\n      Need extra attention in Math.",
+    "students": [
+        {
+            "id": 1,
+            "first_name": "Bisi",
+            "last_name": "Adeleye-fayemi",
+            "bio": "Bisi comes from a small village in the rural north, she's really shy but very bright.",
+            "birthday": "2008-05-12"
+        },
+        {
+            "id": 2,
+            "first_name": "Olisa",
+            "last_name": "Agbakoba",
+            "bio": "Olisa has trouble focusing during class. She tends to bother other students and can be a distraction. She is very good at math.",
+            "birthday": "2008-05-12"
+        },
+        {
+            "id": 4,
+            "first_name": "Pauline",
+            "last_name": "Giwa",
+            "bio": "Dele is an animal lover. Make sure to remember that his dog's name is 'Billy'!",
+            "birthday": "2008-05-12"
+        },
+        {
+            "id": 5,
+            "first_name": "Pasquale",
+            "last_name": "Adebisi",
+            "bio": "Pascal wants to be a surgeon. He has already tried to practice his surgery on one of his classmates - leading to a reprimand from the headmaster.",
+            "birthday": "2008-05-12"
+        },
+        {
+            "id": 6,
+            "first_name": "Patrick",
+            "last_name": "Shagaya",
+            "bio": "Patrick's parents are extremely poor, he comes to class hungry most days. Bringing an extra snack for him will help keep him focused.",
+            "birthday": "2008-05-12"
+        }
+    ]
+}
+```
 
 ### Contribute:
 We'd love to collaborate with software developers of any skill level to help bring the best experience to our users.  Please don't hesitate to jump onboard!
