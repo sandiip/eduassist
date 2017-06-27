@@ -27,6 +27,19 @@ In order to authenticate, please send the following headers:
 The following endpoints are available:
 #### Index
 GET https://www.eduassist.me/api/v1/school_classes will provide an `index` of classes associated with your user credentials.
+```json
+[{
+        "id": 1,
+        "name": "Grade 3",
+        "description": "Half the students were transferred this year as their old school was closed. Remember they're new in town!\n      Need extra attention in Math."
+    },
+    {
+        "id": 2,
+        "name": "Grade 10",
+        "description": "Really rowdy group, remember your classroom control techniques.\r\n      They absolutely love stories about famous Nigerians in history!"
+    }
+]
+```
 #### Create
 POST https://www.eduassist.me/api/v1/school_classes will allow you to `create` a new class from the API. Please use the params school_class[name]: `Your Name Here` and school_class[description]: `your description here`.
 #### Show
