@@ -26,12 +26,11 @@ In order to authenticate, please send the following headers:
 
 The following endpoints are available:
 #### Index
-* GET https://www.eduassist.me/api/v1/school_classes will provide an `index` of classes associated with your user credentials.
+GET https://www.eduassist.me/api/v1/school_classes will provide an `index` of classes associated with your user credentials.
 #### Create
-* POST https://www.eduassist.me/api/v1/school_classes will allow you to `create` a new class from the API. Please use the params school_class[name]: `Your Name Here` and school_class[description]: `your description here`.
+POST https://www.eduassist.me/api/v1/school_classes will allow you to `create` a new class from the API. Please use the params school_class[name]: `Your Name Here` and school_class[description]: `your description here`.
 #### Show
-* GET https://www.eduassist.me/api/v1/school_classes/:id will allow you to `show` a specific class ID and retrieve a list of the students.
-
+GET https://www.eduassist.me/api/v1/school_classes/:id will allow you to `show` a specific class ID and retrieve a list of the students.
 
 ### Contribute:
 We'd love to collaborate with software developers of any skill level to help bring the best experience to our users.  Please don't hesitate to jump onboard!
