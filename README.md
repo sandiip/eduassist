@@ -26,7 +26,7 @@ In order to authenticate, please send the following headers:
 
 The following endpoints are available:
 #### Index
-GET https://www.eduassist.me/api/v1/school_classes will provide an `index` of classes associated with your user credentials.
+GET https://eduassist.herokuapp.com/api/v1/school_classes will provide an `index` of classes associated with your user credentials.
 ```json
 [{
         "id": 1,
@@ -41,9 +41,9 @@ GET https://www.eduassist.me/api/v1/school_classes will provide an `index` of cl
 ]
 ```
 #### Create
-POST https://www.eduassist.me/api/v1/school_classes will allow you to `create` a new class from the API. Please use the params school_class[name]: `Your Name Here` and school_class[description]: `Your Description Here`.
+POST https://eduassist.herokuapp.com/api/v1/school_classes will allow you to `create` a new class from the API. Please use the params school_class[name]: `Your Name Here` and school_class[description]: `Your Description Here`.
 #### Show
-GET https://www.eduassist.me/api/v1/school_classes/:id will allow you to `show` a specific class ID and retrieve a list of the students.
+GET https://eduassist.herokuapp.com/api/v1/school_classes/:id will allow you to `show` a specific class ID and retrieve a list of the students.
 ```json
 {
     "id": 1,
