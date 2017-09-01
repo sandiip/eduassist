@@ -1,4 +1,4 @@
-# [eduAssist.me](https://www.eduassist.me)
+# [eduAssist.me](https://eduassist.herokuapp.com)
 
 ### About:
 eduAssist.me is a mobile-friendly education webapp designed and developed by [Patrick Scheuchzer](https://github.com/patrick-scheuchzer), [Pascal Kress](https://github.com/wabi69sabi), [Pauline Gaget](https://github.com/lupiane), and [Spencer Bray](https://github.com/letired).  This app was built over a two-week sprint during the final weeks of the [Le Wagon](https://lewagon.com) Berlin bootcamp. As of May 2017, we have launched and are collecting user feedback.
